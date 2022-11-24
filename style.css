@@ -24,6 +24,29 @@ body {
     margin: 0;
 }
 
+h1, h2, h3 {
+    font-family: var(--DM-serif-display);
+}
+
+
+.humanizing-section {
+    background-color: var(--dark-violet);
+    color:white;
+}
+
+.humanizing-section a {
+    color: white;
+}
+
+.find-out {
+    background-color: var(--dark-violet);
+    color: white;
+}
+
+.find-out a {
+    color: white;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
