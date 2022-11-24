@@ -1,3 +1,29 @@
+:root {
+    --DM-serif-display: 'DM Serif Display', serif; /*headings*/
+    --karla: 'Karla', sans-serif; /*everything else*/
+
+    /*primary*/
+    --dark-violet: hsl(256, 26%, 20%);
+    --grayish-blue: hsl(216, 30%, 68%);
+
+    /*neutral*/
+    --very-dark-violet: hsl(270, 9%, 17%);
+    --dark-grayish-violet:  hsl(273, 4%, 51%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+
+body {
+    font-family: var(--karla);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
