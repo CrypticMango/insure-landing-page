@@ -22,10 +22,20 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 30px;
 }
 
 h1, h2, h3 {
     font-family: var(--DM-serif-display);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 
