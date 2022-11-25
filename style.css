@@ -36,14 +36,35 @@ h1, h2, h3 {
 h1 {
     margin: 0;
     font-size: 40px;
-    letter-spacing: 2px;
-    padding: 0px 30px;
+    padding: 0px 40px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 45px;
+    color: var(--very-dark-violet);
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+h3 {
+    color: var(--very-dark-violet);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+p {
+    padding: 0px 26px;
+    line-height: 1.6rem;
 }
 
 ul {
     list-style: none;
     padding: 0;
 }
+
+
+/*humanizing purple section*/
 
 .humanizing-section {
     background-color: var(--dark-violet);
@@ -54,7 +75,6 @@ ul {
 
 .humanize-info {
     padding: 0px 30px;
-    line-height: 1.6rem;
     margin-bottom: 40px;
 }
 
@@ -69,9 +89,36 @@ ul {
     color: white;
 }
 
+.line-one {
+    margin-top: 140px;
+    border: 1px solid var(--dark-grayish-violet);
+    width: 35%;
+}
+
+/*we're different section*/
+
+.circle-icon {
+    margin-bottom: 15px;
+}
+
+.feature-text {
+    color: var(--dark-violet);
+    margin-bottom: 60px;
+}
+
+/*find out section*/
+
 .find-out {
     background-color: var(--dark-violet);
+    padding: 30px;
+    margin: 0px 20px 220px 20px;
+}
+
+.find-out h2 {
     color: white;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 2.3rem;
 }
 
 .find-out a {
