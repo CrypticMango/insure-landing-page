@@ -33,15 +33,36 @@ h1, h2, h3 {
     font-family: var(--DM-serif-display);
 }
 
+h1 {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 0px 30px;
+}
+
 ul {
     list-style: none;
     padding: 0;
 }
 
-
 .humanizing-section {
     background-color: var(--dark-violet);
     color:white;
+    padding: 90px 0px 90px 0px;
+    margin: -4px;
+}
+
+.humanize-info {
+    padding: 0px 30px;
+    line-height: 1.6rem;
+    margin-bottom: 40px;
+}
+
+.info-button {
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 7px 20px;
+    text-transform: uppercase;
 }
 
 .humanizing-section a {
