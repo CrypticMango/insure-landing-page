@@ -121,10 +121,12 @@ nav li {
 /*humanizing purple section*/
 
 .humanizing-section {
-    background-color: var(--dark-violet);
     color:white;
     padding: 90px 0px 90px 0px;
     margin: -4px;
+    background: url(/images/bg-pattern-intro-left-mobile.svg) no-repeat, url(/images/bg-pattern-intro-right-mobile.svg) no-repeat 100% 220%;
+    background-color: var(--dark-violet);
+    
 }
 
 .humanize-info {
@@ -163,9 +165,10 @@ nav li {
 /*find out section*/
 
 .find-out {
-    background-color: var(--dark-violet);
     padding: 60px 0px 70px 0px;
-    margin: 150px 25px 240px 25px;
+    margin: 150px 25px 150px 25px;
+    background: url(/images/bg-pattern-how-we-work-mobile.svg) no-repeat 100% 0%;
+    background-color: var(--dark-violet);
 }
 
 .find-out h2 {
@@ -192,10 +195,21 @@ nav li {
 
 .socials .fa-brands {
     color: var(--dark-grayish-violet);
-    
+    font-size: 25px;
 }
 
 /*footer links*/
+
+footer {
+    background: url(/images/bg-pattern-footer-mobile.svg) no-repeat;
+    background-color: var(--very-light-gray);
+    padding-top: 85px;
+}
+
+.line-two {
+    border: 1px solid hsla(276, 4%, 51%, 0.171);
+    width: 85%;
+}
 
 .list-title {
     color: var(--dark-grayish-violet);
