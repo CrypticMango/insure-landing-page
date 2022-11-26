@@ -61,6 +61,17 @@ p {
 ul {
     list-style: none;
     padding: 0;
+    text-transform: uppercase;
+}
+
+ul a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--dark-violet);
+}
+
+li {
+    margin-bottom: 15px;
 }
 
 
@@ -125,10 +136,39 @@ ul {
     color: white;
 }
 
+/*links under logo*/
+
+.socials {
+    margin: 30px 100px 0px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials .fa-brands {
+    color: var(--dark-grayish-violet);
+    
+}
+
+/*footer links*/
+
+.list-title {
+    color: var(--dark-grayish-violet);
+    font-weight: 700;
+    margin: 35px 0px 35px 0px;
+}
+
 .attribution {
-	font-size: 11px;
+	font-size: 13px;
 	text-align: center;
+    margin: 40px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+.fa-brands {
+    color: var(--dark-violet);
+    font-size: 30px;
+    margin-bottom: 30px;
 }
