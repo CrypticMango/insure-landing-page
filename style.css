@@ -114,6 +114,10 @@ nav li {
     margin: 0px 25px;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 /*humanizing purple section*/
 
 .humanizing-section {
