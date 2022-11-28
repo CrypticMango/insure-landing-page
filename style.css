@@ -231,3 +231,25 @@ footer {
     font-size: 30px;
     margin-bottom: 30px;
 }
+
+@media (min-width:1440px) {
+    .section-one {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .section-two {
+        display: flex;
+    }
+
+    .socials-bar-dt {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bottom-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
