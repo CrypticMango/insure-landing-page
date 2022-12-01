@@ -233,6 +233,8 @@ footer {
     margin-bottom: 30px;
 }
 
+/*desktop styling*/
+
 @media (min-width:1440px) {
 
     nav ul {
@@ -259,6 +261,23 @@ footer {
 
     /*humanizing section desktop*/
 
+    h1 {
+        padding: 0px 850px 0px 0px;
+        font-size: 60px;
+        line-height: 3.5rem;
+    }
+
+    .desktop-top-line {
+     width: 150px;
+     margin-left: 0;
+     margin-bottom: 60px;
+    }
+
+    .humanize-info{
+        padding: 10px 747px 0px 0px;
+        
+    }
+
     .section-one {
         display: flex;
         flex-direction: row-reverse;
@@ -266,15 +285,15 @@ footer {
 
     .humanizing-section {
         width: 100%;
-        height: 300px;
+        height: 400px;
         text-align: left;
-        padding-left: 100px;
+        padding-left: 150px;
     }
 
     .young-family-dt {
         position: absolute;
-        left: 1000px;
-        top: 200px;
+        left: 700px;
+        top: 180px;
     }
 
     .young-family {
@@ -310,5 +329,4 @@ footer {
         display: block;
         margin: 0;
     }
-
 }
