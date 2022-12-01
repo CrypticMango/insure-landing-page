@@ -1,332 +1,383 @@
 :root {
-    --DM-serif-display: 'DM Serif Display', serif; /*headings*/
-    --karla: 'Karla', sans-serif; /*everything else*/
+	--DM-serif-display: "DM Serif Display", serif; /*headings*/
+	--karla: "Karla", sans-serif; /*everything else*/
 
-    /*primary*/
-    --dark-violet: hsl(256, 26%, 20%);
-    --grayish-blue: hsl(216, 30%, 68%);
+	/*primary*/
+	--dark-violet: hsl(256, 26%, 20%);
+	--grayish-blue: hsl(216, 30%, 68%);
 
-    /*neutral*/
-    --very-dark-violet: hsl(270, 9%, 17%);
-    --dark-grayish-violet:  hsl(273, 4%, 51%);
-    --very-light-gray: hsl(0, 0%, 98%);
+	/*neutral*/
+	--very-dark-violet: hsl(270, 9%, 17%);
+	--dark-grayish-violet: hsl(273, 4%, 51%);
+	--very-light-gray: hsl(0, 0%, 98%);
 }
 
-
 body {
-    font-family: var(--karla);
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    text-align: center;
-    overflow-x: hidden;
+	font-family: var(--karla);
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	text-align: center;
+	overflow-x: hidden;
 }
 
 nav {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
-h1, h2, h3 {
-    font-family: var(--DM-serif-display);
+h1,
+h2,
+h3 {
+	font-family: var(--DM-serif-display);
 }
 
 h1 {
-    margin: 0;
-    font-size: 40px;
-    padding: 0px 40px;
-    font-weight: 400;
+	margin: 0;
+	font-size: 40px;
+	padding: 0px 40px;
+	font-weight: 400;
 }
 
 h2 {
-    font-size: 45px;
-    color: var(--very-dark-violet);
-    font-weight: 400;
-    margin-bottom: 70px;
+	font-size: 45px;
+	color: var(--very-dark-violet);
+	font-weight: 400;
+	margin-bottom: 70px;
 }
 
 h3 {
-    color: var(--very-dark-violet);
-    font-size: 25px;
-    font-weight: 400;
+	color: var(--very-dark-violet);
+	font-size: 25px;
+	font-weight: 400;
 }
 
 p {
-    padding: 0px 26px;
-    line-height: 1.6rem;
+	padding: 0px 26px;
+	line-height: 1.6rem;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    text-transform: uppercase;
+	list-style: none;
+	padding: 0;
+	text-transform: uppercase;
 }
 
 ul a {
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--dark-violet);
+	text-decoration: none;
+	font-weight: 700;
+	color: var(--dark-violet);
 }
 
 li {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /*top bar*/
 
 .top-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 25px 25px 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0px 25px 25px 25px;
 }
 
 .close-bt {
-    display: none;
+	display: none;
 }
 
 /*menu*/
 
 nav ul {
-    position: absolute;
-    top: 71px;
-    width: 100%;
-    padding: 30px 0px 327px 0px;
-    background: url(/images/bg-pattern-mobile-nav.svg) no-repeat 0% 100%;
-    background-color: var(--very-dark-violet);
+	position: absolute;
+	top: 71px;
+	width: 100%;
+	padding: 30px 0px 327px 0px;
+	background: url(/images/bg-pattern-mobile-nav.svg) no-repeat 0% 100%;
+	background-color: var(--very-dark-violet);
 }
 
 nav li {
-    color: white;
-    font-size: 20px;
-    margin-bottom: 35px;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 35px;
 }
 
 .work {
-    margin-top: 25px;
+	margin-top: 25px;
 }
 
 .menu-view-plans {
-    border: 2px solid white;
-    padding: 15px;
-    margin: 0px 25px;
+	border: 2px solid white;
+	padding: 15px;
+	margin: 0px 25px;
 }
 
 .mobile-menu {
-    display: none;
+	display: none;
 }
 
 /*humanizing purple section*/
 
 .humanizing-section {
-    color:white;
-    padding: 90px 0px 90px 0px;
-    margin: -4px;
-    background: url(/images/bg-pattern-intro-left-mobile.svg) no-repeat, url(/images/bg-pattern-intro-right-mobile.svg) no-repeat 100% 220%;
-    background-color: var(--dark-violet);
-    
+	color: white;
+	padding: 90px 0px 90px 0px;
+	margin: -4px;
+	background: url(/images/bg-pattern-intro-left-mobile.svg) no-repeat,
+		url(/images/bg-pattern-intro-right-mobile.svg) no-repeat 100% 220%;
+	background-color: var(--dark-violet);
 }
 
 .humanize-info {
-    padding: 0px 30px;
-    margin-bottom: 40px;
+	padding: 0px 30px;
+	margin-bottom: 40px;
 }
 
 .info-button {
-    text-decoration: none;
-    border: 2px solid white;
-    padding: 7px 20px;
-    text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 7px 20px;
+	text-transform: uppercase;
 }
 
 .humanizing-section a {
-    color: white;
+	color: white;
 }
 
 .line-one {
-    margin-top: 140px;
-    border: 1px solid hsla(276, 4%, 51%, 0.418);
-    width: 35%;
+	margin-top: 140px;
+	border: 1px solid hsla(276, 4%, 51%, 0.418);
+	width: 35%;
 }
 
 /*we're different section*/
 
 .circle-icon {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .feature-text {
-    color: var(--dark-violet);
-    margin-bottom: 60px;
+	color: var(--dark-violet);
+	margin-bottom: 60px;
 }
 
 /*find out section*/
 
 .find-out {
-    padding: 60px 0px 70px 0px;
-    margin: 150px 25px 150px 25px;
-    background: url(/images/bg-pattern-how-we-work-mobile.svg) no-repeat 100% 0%;
-    background-color: var(--dark-violet);
+	padding: 60px 0px 70px 0px;
+	margin: 150px 25px 150px 25px;
+	background: url(/images/bg-pattern-how-we-work-mobile.svg) no-repeat 100%
+		0%;
+	background-color: var(--dark-violet);
 }
 
 .find-out h2 {
-    color: white;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 2.7rem;
-    margin: 0px 0px 50px 0px;
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 2.7rem;
+	margin: 0px 0px 50px 0px;
 }
 
 .find-out .info-button {
-    color: white;
-    margin-top: 20px;
+	color: white;
+	margin-top: 20px;
 }
 
 /*links under logo*/
 
 .socials {
-    margin: 30px 100px 0px 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+	margin: 30px 100px 0px 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .socials .fa-brands {
-    color: var(--dark-grayish-violet);
-    font-size: 25px;
+	color: var(--dark-grayish-violet);
+	font-size: 25px;
 }
 
 /*footer links*/
 
 footer {
-    background: url(/images/bg-pattern-footer-mobile.svg) no-repeat;
-    background-color: var(--very-light-gray);
-    padding-top: 85px;
+	background: url(/images/bg-pattern-footer-mobile.svg) no-repeat;
+	background-color: var(--very-light-gray);
+	padding-top: 85px;
 }
 
 .line-two {
-    border: 1px solid hsla(276, 4%, 51%, 0.171);
-    width: 85%;
+	border: 1px solid hsla(276, 4%, 51%, 0.171);
+	width: 85%;
 }
 
 .list-title {
-    color: var(--dark-grayish-violet);
-    font-weight: 700;
-    margin: 35px 0px 35px 0px;
+	color: var(--dark-grayish-violet);
+	font-weight: 700;
+	margin: 35px 0px 35px 0px;
 }
 
 .attribution {
 	font-size: 13px;
 	text-align: center;
-    margin: 40px;
+	margin: 40px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
 
 .fa-brands {
-    color: var(--dark-violet);
-    font-size: 30px;
-    margin-bottom: 30px;
+	color: var(--dark-violet);
+	font-size: 30px;
+	margin-bottom: 30px;
 }
 
 /*desktop styling*/
 
-@media (min-width:1440px) {
+@media (min-width: 1440px) {
+	nav ul {
+		position: unset;
+		background: none;
+		padding: 0;
+	}
 
-    nav ul {
-        position: unset;
-        background: none;
-        padding: 0;
-    }
+	nav li {
+		color: black;
+		display: inline-block;
+		margin: 0;
+	}
 
-    nav li {
-        color: black;
-        display: inline-block;
-        margin: 0;
-    }
+	.dt-top-navigation {
+		display: flex;
+		justify-content: space-between;
+		margin: 0px 40px 0px 40px;
+	}
 
-    .dt-top-navigation {
-        display: flex;
-        justify-content: space-between;
-        margin: 0px 40px 0px 40px;
-    }
+	.work {
+		margin: 0;
+	}
 
-    .work {
-        margin: 0;
-    }
+	/*humanizing section desktop*/
 
-    /*humanizing section desktop*/
+	h1 {
+		padding: 0px 830px 0px 0px;
+		font-size: 65px;
+		line-height: 3.5rem;
+	}
 
-    h1 {
-        padding: 0px 850px 0px 0px;
-        font-size: 60px;
-        line-height: 3.5rem;
-    }
+	.desktop-top-line {
+		width: 150px;
+		margin-left: 0;
+		margin-bottom: 60px;
+	}
 
-    .desktop-top-line {
-     width: 150px;
-     margin-left: 0;
-     margin-bottom: 60px;
-    }
+	.humanize-info {
+		padding: 10px 747px 0px 0px;
+	}
 
-    .humanize-info{
-        padding: 10px 747px 0px 0px;
-        
-    }
+	.section-one {
+		display: flex;
+		flex-direction: row-reverse;
+	}
 
-    .section-one {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+	.humanizing-section {
+		width: 100%;
+		height: 400px;
+		text-align: left;
+		padding-left: 150px;
+	}
 
-    .humanizing-section {
-        width: 100%;
-        height: 400px;
+	.young-family-dt {
+		position: absolute;
+		left: 700px;
+		top: 180px;
+	}
+
+	.young-family {
+		display: none;
+	}
+
+	/*we're different section desktop*/
+
+	.section-two {
+		display: flex;
+		margin: 150px;
         text-align: left;
-        padding-left: 150px;
+	}
+
+	.line-one {
+		width: 150px;
+		margin-left: 150px;
+		margin-top: 310px;
+	}
+
+	.different-title {
+		text-align: left;
+		margin-left: 150px;
+        font-size: 65px;
+	}
+
+    .feature-text {
+        padding-left: 0;
     }
 
-    .young-family-dt {
-        position: absolute;
-        left: 700px;
-        top: 180px;
-    }
+    /*find out section desktop*/
 
-    .young-family {
-        display: none;
-    }
-
-    /*we're different section desktop*/
-
-    .section-two {
+    .find-out {
+        margin: 0px 150px 0px 150px;
         display: flex;
-    }
-
-    .line-one {
-        margin-top: 200px;
-    }
-
-    .socials-bar-dt {
-        display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: space-between;
     }
 
-    .bottom-container {
-        display: flex;
-        justify-content: space-between;
+    .find-out h2 {
+        margin: 0;
+        padding-left: 50px;
     }
 
-    .that-burger {
-        display: none;
+    .find-out .info-button {
+        margin-right: 50px;
     }
 
-    .mobile-menu {
-        display: block;
+	/*footer desktop*/
+
+    .line-two {
+        margin-left: 150px;
+        width: 79%;
+    }
+
+	.socials-bar-dt {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+        margin: 0px 150px;
+	}
+
+    .socials {
+        text-align: right;
         margin: 0;
     }
+
+    .fa-square-facebook, .fa-twitter, .fa-pinterest  {
+        margin-right: 15px;
+    }
+
+	.bottom-container {
+		display: flex;
+		justify-content: space-between;
+        margin: 0px 350px 0px 150px;
+        text-align: left;
+	}
+
+	.that-burger {
+		display: none;
+	}
+
+	.mobile-menu {
+		display: block;
+		margin: 0;
+	}
 }
