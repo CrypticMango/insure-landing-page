@@ -238,26 +238,42 @@ footer {
 /*desktop styling*/
 
 @media (min-width: 1440px) {
+	.top-bar {
+		margin: 0;
+	}
+
+	nav {
+		margin: 15px 120px 15px 150px;
+	}
+	
 	nav ul {
 		position: unset;
 		background: none;
 		padding: 0;
 	}
 
+	.work, #blog {
+		margin: 15px;
+	}
+
 	nav li {
 		color: black;
 		display: inline-block;
-		margin: 0;
+		margin: 0px;
+		color: var(--dark-grayish-violet);
+		font-size: 15px;
 	}
 
 	.dt-top-navigation {
 		display: flex;
 		justify-content: space-between;
-		margin: 0px 40px 0px 40px;
+		margin: 0px 40px 0px 0px;
 	}
 
-	.work {
-		margin: 0;
+	.menu-view-plans {
+		border: 2px solid var(--very-dark-violet);
+		color: var(--very-dark-violet);
+		padding: 8px 25px;
 	}
 
 	/*humanizing section desktop*/
@@ -358,7 +374,7 @@ footer {
 
     .socials {
         text-align: right;
-        margin: 0;
+		margin-right: 0;
     }
 
     .fa-square-facebook, .fa-twitter, .fa-pinterest  {
