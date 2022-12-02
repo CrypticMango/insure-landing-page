@@ -120,6 +120,14 @@ nav li {
 	display: none;
 }
 
+.young-family-dt {
+	display: none;
+}
+
+.desktop-top-line {
+	display: none;
+}
+
 /*humanizing purple section*/
 
 .humanizing-section {
@@ -185,6 +193,10 @@ nav li {
 .find-out .info-button {
 	color: white;
 	margin-top: 20px;
+}
+
+.new-line {
+	display: none;
 }
 
 /*links under logo*/
@@ -288,6 +300,7 @@ footer {
 		width: 150px;
 		margin-left: 0;
 		margin-bottom: 60px;
+		display: block;
 	}
 
 	.humanize-info {
@@ -304,12 +317,14 @@ footer {
 		height: 400px;
 		text-align: left;
 		padding-left: 150px;
+		
 	}
 
 	.young-family-dt {
 		position: absolute;
 		left: 700px;
 		top: 180px;
+		display: block;
 	}
 
 	.young-family {
@@ -352,6 +367,7 @@ footer {
     .find-out h2 {
         margin: 0;
         padding-left: 50px;
+		text-align: left;
     }
 
     .find-out .info-button {
