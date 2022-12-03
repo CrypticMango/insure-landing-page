@@ -134,14 +134,18 @@ nav li {
 	display: none;
 }
 
+.mb-swirl-img {
+	position: absolute;
+	right: 0;
+	top: 880px;
+}
+
 .humanizing-section {
 	color: white;
 	padding: 90px 0px 90px 0px;
 	margin: -4px;
-	background: url(/images/bg-pattern-intro-left-mobile.svg) no-repeat,
-		url(/images/bg-pattern-intro-right-mobile.svg) no-repeat 100% 220%;
+	background: url(/images/bg-pattern-intro-left-mobile.svg) no-repeat;
 	background-color: var(--dark-violet);
-
 }
 
 .humanize-info {
