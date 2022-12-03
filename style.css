@@ -130,6 +130,10 @@ nav li {
 
 /*humanizing purple section*/
 
+.dt-left-img, .dt-right-img {
+	display: none;
+}
+
 .humanizing-section {
 	color: white;
 	padding: 90px 0px 90px 0px;
@@ -137,6 +141,7 @@ nav li {
 	background: url(/images/bg-pattern-intro-left-mobile.svg) no-repeat,
 		url(/images/bg-pattern-intro-right-mobile.svg) no-repeat 100% 220%;
 	background-color: var(--dark-violet);
+
 }
 
 .humanize-info {
@@ -252,10 +257,12 @@ footer {
 @media (min-width: 1440px) {
 	.top-bar {
 		margin: 0;
+		
 	}
 
 	nav {
 		margin: 15px 120px 15px 150px;
+		z-index: 3;
 	}
 	
 	nav ul {
@@ -296,6 +303,21 @@ footer {
 		line-height: 3.5rem;
 	}
 
+	.dt-left-img {
+		position: absolute;
+		top: 490px;
+		left: 0;
+		display: block;
+	}
+
+	.dt-right-img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+		display: block;
+	}
+
 	.desktop-top-line {
 		width: 150px;
 		margin-left: 0;
@@ -317,7 +339,8 @@ footer {
 		height: 400px;
 		text-align: left;
 		padding-left: 150px;
-		
+		background: url(/images/bg-pattern-intro-right-desktop.svg) no-repeat 100% 600%;
+		background-color: var(--dark-violet);
 	}
 
 	.young-family-dt {
@@ -362,12 +385,16 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+		background: url(/images/bg-pattern-how-we-work-desktop.svg) no-repeat 100%;
+		background-color: var(--dark-violet);
     }
 
     .find-out h2 {
         margin: 0;
-        padding-left: 50px;
+		padding-left: 60px;
+        width: 440px;
 		text-align: left;
+		font-size: 50px;
     }
 
     .find-out .info-button {
@@ -411,5 +438,12 @@ footer {
 	.mobile-menu {
 		display: block;
 		margin: 0;
+	}
+
+	footer {
+		margin-top: 200px;
+		background: url(/images/bg-pattern-footer-desktop.svg) no-repeat;
+		background-color: var(--very-light-gray);
+		padding-top: 33px;
 	}
 }
