@@ -66,14 +66,15 @@ ul {
 	text-transform: uppercase;
 }
 
-ul a {
+li {
+	margin-bottom: 15px;
 	text-decoration: none;
 	font-weight: 700;
 	color: var(--dark-violet);
 }
 
-li {
-	margin-bottom: 15px;
+li:hover {
+	cursor: pointer;
 }
 
 /*top bar*/
@@ -204,9 +205,6 @@ nav li {
 	margin-top: 20px;
 }
 
-.new-line {
-	display: none;
-}
 
 /*links under logo*/
 
