@@ -469,6 +469,7 @@ footer {
 		background: url(/images/bg-pattern-footer-desktop.svg) no-repeat;
 		background-color: var(--very-light-gray);
 		padding-top: 33px;
+		width: 100%;
 	}
 
 	footer li:hover {
