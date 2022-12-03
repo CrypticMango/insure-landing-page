@@ -261,8 +261,12 @@ footer {
 @media (min-width: 1440px) {
 	.top-bar {
 		margin: 0;
-		
 	}
+
+	.info-button:hover {
+		background-color: white;
+		color: var(--very-dark-violet);
+	}	
 
 	nav {
 		margin: 15px 120px 15px 150px;
@@ -287,6 +291,10 @@ footer {
 		font-size: 15px;
 	}
 
+	li:hover {
+		color: var(--very-dark-violet);
+	}
+
 	.dt-top-navigation {
 		display: flex;
 		justify-content: space-between;
@@ -297,6 +305,11 @@ footer {
 		border: 2px solid var(--very-dark-violet);
 		color: var(--very-dark-violet);
 		padding: 8px 25px;
+	}
+
+	.menu-view-plans:hover {
+		color: white;
+		background-color: var(--very-dark-violet);
 	}
 
 	/*humanizing section desktop*/
@@ -345,6 +358,10 @@ footer {
 		padding-left: 150px;
 		background: url(/images/bg-pattern-intro-right-desktop.svg) no-repeat 100% 600%;
 		background-color: var(--dark-violet);
+	}
+
+	.mb-swirl-img {
+		display: none;
 	}
 
 	.young-family-dt {
@@ -428,6 +445,11 @@ footer {
         margin-right: 15px;
     }
 
+	.fa-brands:hover {
+		color: var(--very-dark-violet);
+		cursor: pointer;
+	}
+
 	.bottom-container {
 		display: flex;
 		justify-content: space-between;
@@ -449,5 +471,14 @@ footer {
 		background: url(/images/bg-pattern-footer-desktop.svg) no-repeat;
 		background-color: var(--very-light-gray);
 		padding-top: 33px;
+	}
+
+	footer li:hover {
+		text-decoration: underline;
+	}
+
+	.list-title:hover{
+		text-decoration: none;
+		color: var(--dark-grayish-violet);
 	}
 }
